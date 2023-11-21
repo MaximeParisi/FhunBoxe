@@ -1,0 +1,172 @@
+a{
+    font-family: bebas neue, sans serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+a:hover{
+    text-decoration: underline;
+}
+a[title=cta]{
+    background-color:#eb0501;
+    box-shadow: 5px 5px 0px black;
+    color: black;
+    font-family: bebas neue, sans serif;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 30px;
+    display: block ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 280px;
+}
+a[title=cta]:hover{
+    text-decoration: underline;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.caseRenseignement{
+    font-family: bebas neue, sans serif;
+    display: flex;
+    flex-direction: row;
+
+}
+.copyright{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+span{
+    color:#eb0501;
+}
+fieldset{
+    color:#e2b708;
+    font-family: bebas neue, sans serif;
+    border: none;
+    background:black;
+
+}
+h1{
+    font-family: bebas neue, sans serif;
+    text-align: center;
+    font-size:2em;
+    color: white;
+    font-weight: 900;
+    padding: 80px ;
+
+}
+h2{
+    font-family: bebas neue, sans serif;
+    text-align: center;
+    font-size:1,8em;
+    color: white;
+    font-weight: 700;
+}
+h3{
+    text-align: center;
+}
+header,footer{
+    background-color: white;
+}
+.intro{
+    display:flex;
+    flex-direction: row;
+    padding:30px;
+}
+a[title=lien_vers]:hover{
+    color:rgba(5,124,2,0.8);
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+}
+legend{
+    color: black;
+    font-size: 2em;
+    font-family: bebas neue, sans serif;
+    font-weight: 700;
+}
+main{
+    background-color: black;
+    padding-top:10px;
+}
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    width: 300%;
+    font-family: bebas neue, sans serif;
+    font-size: 1,5em;
+    color: black;
+    padding: 20px;
+}
+.milieuDePage{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../moiquiboxe.jpg) center fixed;
+ 
+
+}
+.milieuDePageTitre{
+    color: white;
+    text-shadow: 2px 2px 1px black;
+
+}
+nav{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+}
+.pieder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+p, ul, li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1,8em;
+    color: white;
+    font-weight: 700;
+}
+.p{
+    font-family: bebas neue, sans serif;
+    text-align: center;
+    font-size:1,8em;
+    color: white;
+    padding: 5px;
+    text-shadow: 5px 5px 10px black;
+    font-weight: 700;
+    width:80%;
+}
+.prenom_nom{
+    display: flex;
+    flex-direction: row;
+
+
+}
+td,th{
+    border: 2px solid rgba(5,124,2,0.8);
+    padding:20px;
+}
+table{
+    border-collapse: collapse;
+    display:flex;
+    justify-content: center;
+    margin:40px;
+    
+}
+@media screen and (max-width: 1000px) {
+    main{
+        padding-bottom:900px;
+    }
+    .milieuDePage{
+        background: url(../moiquiboxe.jpg) center;
+     
+    
+    }
+    
+}

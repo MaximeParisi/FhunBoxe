@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "gants",
+        "prix": 20,
+        "categorie": "main",
+        "description": "special Fhun Boxe"
+
+    },
+    {
+        "nom": "T-shirt blanc",
+        "prix": 15,
+        "categorie": "T-shirt"
+
+    },
+    {
+        "nom": "T-shirt noir",
+        "prix": 14,
+        "categorie": "T-shirt"
+    }
+]

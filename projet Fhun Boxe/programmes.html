@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="utf=8">
+    <head>
+            <title>Programmes Fhun Boxe</title>
+            <link href="fichiers css/programmes.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo_en_tete">
+                    <a href="programmes.html" ><img src="logoFHB.png" alt="Logo Fhun Boxe" class="logo" >
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="index.html">Acceuil
+                    </a>
+                    <a href="programmes.html#programmes">Programmes
+                    </a>
+                    <a href="inscription.html">Inscription
+                    </a>
+                    <a href="connexion.html">Connexion
+                    </a>
+                    <a href="boutique.html">Boutique</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1 id="programmes">Les programmes</h1>
+            <section class="intro">
+                <div class="parragrapheIntro">
+                    <div>
+                        <p>Tarifs pour les différents services</p>
+                    </div>
+                <table>
+                    <tr>   <!--colonne titre-->
+                        <th></th>
+                        <th>seul ou à plusieurs</th>
+                        <th>Tarifs</th>
+                    </tr>
+                    <tr>   <!--1erecolonne-->
+                        <td rowspan="2">Pour les moins grands (<13ans) </td> <!--pas de fautes juste on veux mettre un "<" donc l'ordi boude-->
+                        <td>Cours particuliers</td>
+                        <td>20€ /heure</td>
+                    </tr>
+                    <tr>  <!--2eme colonne-->
+                    <!--<td> Pour les moins grands</td> 1ere ligne de la 2eme colonne fusionné avec la 1ere ligne 1ere colonne-->
+                        <td rowspan="2">Cours collectifs</td>
+                        <td>Gratuit</td>
+                    </tr>
+                    <tr>  <!--3eme colonne-->
+                        <td rowspan="2">Pour les plus grands (>13ans)</td>
+                    <!--<td> Cours collectifs</td> 3eme ligne de la 2eme colonne fusionné avec la 2eme ligne 2eme colonne-->
+                        <td >Gratuit</td>
+                    </tr>
+                    <tr> <!--4eme colonne-->
+                    <!--<td> Pour les plus grands</td> 1ere ligne de la 3eme colonne fusionné avec la 1ere ligne 2eme colonne-->
+                        <td>Cours particuliers</td>
+                        <td>15€ /heure</td>
+                    </tr>
+                </table>
+                <p>Les cours collectifs se font au stade d'athlétisme de Vauban à Nice tous les samedi de 10h à midi</p>
+            </div>
+            
+                    <img src="Carte.PNG" alt="carte du quartier Universitaire." usemap="#carte">
+                    <map name="carte">
+                        <area shape="circle" coords="300,350,100" href="programmes.html#programmes" alt="accedez au programmes" class="cercle">
+                    </map>
+            </section>
+                
+            <div>
+                <a href="#besoinRenseignement" title="lien_vers">besoin de renseignement ? cliquez-moi</a>  <!--ancre au bas de cette même page-->
+            </div>
+            <h1>Le coach</h1>
+            <section class="intro" id="Coach">
+                <div class="introTexte">
+                    
+                    <h2>Vincent</h2>
+                    <h2>Sports de combat exercés:</h2>
+                    <ul>
+                        <li><a href="https://www.youtube.com/shorts/NP_DaifY554" title="lien_vers">Boxe Anglaise</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=zSuGxGgwwpc" title="lien_vers">Boxe Americaine</a></li>
+                        <li><a href="https://www.youtube.com/shorts/qYmYqxsKMi8" title="lien_vers">Kung Fu</a></li>
+                        <li><a href="https://www.youtube.com/shorts/mL9LNSFS6jw" title="lien_vers">Ju-jitsu</a></li>
+                        <li><a href="https://www.youtube.com/shorts/Besn7mMLfPM" title="lien_vers">Karaté</a></li> 
+                        <li><a href="https://www.youtube.com/shorts/mxgp4EAATt4" title="lien_vers">Taekwondo</a></li>
+                        <li><a href="https://www.youtube.com/shorts/49mnuBh6jBs" title="lien_vers">Savate</a></li>
+                        <li><a href="https://www.youtube.com/shorts/gkvQYDH0OJI" title="lien_vers">Boxe Thaï</a></li> 
+                        <li><a href="https://www.youtube.com/shorts/hmqHRAyb5bg" title="lien_vers">Full contact</a></li>
+                    </ul>
+                </div>
+                <img src="leCoach.jpg" alt="Coach Vincent">
+            </section>
+                <fieldset>
+                    <legend>Besoin de renseignement ?</legend>
+                        <form action="" method="get"><br>
+            <section class="caseRenseignement" id="besoinRenseignement">
+                            <div class="prenom-num">
+                                <div>
+                                    <label for="prenom">Prénom :</label><br>
+                                        <input type="text" name="prenom" id="prenom" autofocus>
+                                </div>
+                                <div>
+                                    <label for="num">Numéro de téléphone :(réponse par message )</label><br>
+                                        <input type="tel" name="num" id="num" required>
+                                </div>
+                            </div>
+                                    <label for="message">Message :</label><br>
+                                        <textarea cols="5" row="10" placeholder="blablabla blablabla"></textarea><br>
+                                    <input type="submit" name="envoyer" value="envoyer" class="envoyer">
+            </section>        
+                        </form>
+                </fieldset> <br><br><br>
+        </main>
+        <footer>
+            <div class="pieder">
+                <a href="programmes.html" >
+                    <img src="logoFHB.png" alt="Logo Fhun Boxe" class="logo" >
+                </a>
+            <div>
+                <a href="https://www.facebook.com/fhunboxe/" >   
+                    <img src="logoFb.png" alt="FHUN BOXE groupe facebook">
+                </a>
+                <a href="https://instagram.com/fhunboxe?igshid=NTc4MTIwNjQ2YQ==">
+                    <img src="logoInsta.PNG" alt="fhunboxe groupe instagram">
+                </a>
+            </div>
+            </div>
+            <p class="copyright">©2023by<span>moi-même</span>.All right reserved</p>
+        </footer>
+    </body>
+</html>

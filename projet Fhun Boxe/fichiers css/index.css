@@ -1,0 +1,177 @@
+a{
+    font-family: bebas neue, sans serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+a:hover{
+    text-decoration: underline;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;
+    right: 6px;
+}
+.cercle{
+    color: #eb0501;
+}
+.cercle:hover{
+    color: black;
+}
+a[title=cta]{
+    background-color:#eb0501;
+    box-shadow: 5px 5px 0px black;
+    color: black;
+    font-family: bebas neue, sans serif;
+    padding: 30px;
+    border-radius: 2px;
+    margin: 30px;
+    display: block ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+
+
+}
+a[title=cta]:hover{
+    text-decoration: underline;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+}
+.copyright{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+span{
+    color:#eb0501;
+}
+h1{
+    font-family: bebas neue, sans serif;
+    font-size:2em;
+    color: white;
+    font-weight: 900;
+    padding-left: 10px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/Boxe-anglaise.jpg) center;
+    background-size: cover;
+    padding: 20px;
+    padding-left: 80px;
+    
+
+}
+h2{
+    font-family: bebas neue, sans serif;
+    font-size:1,8em;
+    color: white;
+    font-weight: 700;
+}
+header,footer{
+    background-color: white;
+}
+.intro{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding:50px;
+    margin: auto;
+    width: 80%;
+
+}
+a[title=inscrit-toiBouton]{
+        background-color:#eb0501;
+        box-shadow: 5px 5px 5px white;
+        color: black;
+        font-family: bebas neue, sans serif;
+        padding: 30px;
+        border-radius: 2px;
+        margin: 30px;
+        text-align: center;
+        display: inline-block;
+        width: 30%;
+       
+    }
+a[title=inscrit-toiBouton]:hover{
+        text-decoration: underline;
+        box-shadow: none;
+        position:relative;
+        top: 5px;
+        left:5px;
+}
+main{
+    background-color: black;
+    padding-top:10px;
+}
+.millieu_de_page{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url(../moiquiboxe.jpg) center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.millieu_de_page2{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../lamadamequiboxe.jpg);
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    width: 300%;
+    font-family: bebas neue, sans serif;
+    font-size: 1,5em;
+    color: black;
+    padding: 20px;
+}
+nav{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+}
+.pieder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:1,8em;
+    color: white;
+    font-weight: 700;
+}
+.p{
+    font-family: bebas neue, sans serif;
+    text-align: center;
+    font-size:1,8em;
+    color: white;
+    padding: 5px;
+    text-shadow: 5px 5px 10px black;
+    font-weight: 700;
+    width:80%;
+    background: none;
+}
+.parragrapheIntro{
+    padding-right:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

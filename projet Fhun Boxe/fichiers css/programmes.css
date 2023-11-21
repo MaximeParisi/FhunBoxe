@@ -1,0 +1,218 @@
+a{
+    font-family: bebas neue, sans serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+a:hover{
+    text-decoration: underline;
+}
+a[title=cta]{
+    background-color:#eb0501;
+    box-shadow: 5px 5px 0px white;
+    color: white;
+    font-family: bebas neue, sans serif;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 30px;
+    display: block ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+}
+a[title=cta]:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+    box-shadow: none;
+}
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.caseRenseignement{
+    font-family: bebas neue, sans serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.copyright{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+span{
+    color:#eb0501;
+}
+.envoyer{
+    background-color: #eb0501;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 0px white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding:10px;
+    margin: auto;
+}
+.envoyer:hover{
+    text-decoration: underline;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+fieldset{
+    color:#eb0501;
+    font-family: bebas neue, sans serif;
+    border: none;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)) ,url(/lamadamequiboxe.jpg) center;
+    background-size: cover;
+}
+h1{
+    font-family: bebas neue, sans serif;
+    font-size:2em;
+    color: white;
+    font-weight: 900;
+    padding-left: 10px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/Boxe-anglaise.jpg) center;
+    background-size: cover;
+    padding: 20px;
+    padding-left: 80px;
+}
+h2{
+    font-family: bebas neue, sans serif;
+    font-size:1,8em;
+    color: #eb0501;
+    font-weight: 700;
+}
+header,footer{
+    background-color: white;
+}
+.intro{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+}
+.introTexte{
+    padding: 10px;
+    width: 30%;
+}
+input{
+    width: 200px;
+    margin:10px;
+}
+a[title=lien_vers]{
+    color: white;
+    text-decoration: underline;
+}
+a[title=lien_vers]:hover{
+    color:#eb0501;
+    
+    display: inline-block;
+    text-align: center;
+}
+legend{
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 2em;
+    font-family: bebas neue, sans serif;
+    font-weight: 700;
+}
+label{
+    color: white;
+    font-weight: 900;
+}
+li{
+    color: white;
+
+}
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    width: 300%;
+    font-family: bebas neue, sans serif;
+    font-size: 1,5em;
+    color: white;
+    padding: 20px;
+}
+main{
+    background-color: black;
+    padding-top: 10px;
+}
+nav{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+    
+}
+.pieder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:1,8em;
+    color: white;
+    font-weight: 700;
+}
+.p{
+    font-family: bebas neue, sans serif;
+    text-align: center;
+    font-size:1,8em;
+    color: white;
+    padding: 5px;
+    text-shadow: 5px 5px 10px black;
+    font-weight: 700;
+    width:80%;
+}
+.prenom-num{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    height: 10%;
+}
+td,th{
+    border: 2px solid rgba(5,124,2,0.8);
+    padding:20px;
+    color: white;
+}
+table{
+    caption-side: top;
+    border-collapse: collapse;
+    display:flex;
+    justify-content: center;
+    margin:40px;
+}
+label[for=message]{
+    text-align: center;
+    position:relative;
+    top: 20px;
+}
+textarea{
+    width:70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+@media screen and (max-width: 1000px) {
+    img[alt*=carte]{
+        display: none;
+    }
+    }
